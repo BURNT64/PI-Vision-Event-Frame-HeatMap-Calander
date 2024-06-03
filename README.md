@@ -29,7 +29,7 @@ to the future is not possible.
 # Calendar Settings
  The configuration setting can be invoked by right-clicking on the symbol.
 
-#Configuration section:
+# Configuration section:
  - Header color: color pick for the text of title, month and year
  - Background color: color pick for the symbol's background
  - Events/day cap: daily maximum number of events, at which the color of days
@@ -37,7 +37,7 @@ to the future is not possible.
  - Color hue: Hue for the color-scale from dark grey to the brightest of it,
      green by default
 
-#Data Update section:
+# Data Update section:
  - Auto Update (mins): Data update frequency in minutes (0-1440, def.: 15),
     zero value turns off auto-updating, events get refreshed only when
     navigating to previous or next month  
@@ -45,7 +45,7 @@ to the future is not possible.
  Numeric values are integers and reset to default immediately in case of any
 invalid input.
 
-#Symbol source files
+# Symbol source files
  - sym-eventcalendar-template
  - sym-eventcalendar.js
  - sym-eventcalendar-style.css
