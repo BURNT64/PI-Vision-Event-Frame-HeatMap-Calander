@@ -6,7 +6,7 @@
  June 2024
 ********************************************************************************
 
-
+![Event frame count display](https://github.com/BURNT64/PI-Vision-Event-Frame-HeatMap-Calander/assets/88587722/4b9d3bb6-9ab5-464b-af7e-02f487518bca)
 
 Function
  The Event Calendar is a custom PI Vision symbol to visualize the monthly
