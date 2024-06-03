@@ -8,7 +8,7 @@
 
 ![Event frame count display](https://github.com/BURNT64/PI-Vision-Event-Frame-HeatMap-Calander/assets/88587722/4b9d3bb6-9ab5-464b-af7e-02f487518bca)
 
-#Function
+# Function
  The Event Calendar is a custom PI Vision symbol to visualize the monthly
 frequency of all Event Frames within a given PI AF database.
 The calendar shows the selected month, displaying the number of all active Event
@@ -18,7 +18,7 @@ events on a scale from dark grey to a light color based on the configuration.
 The symbol is built on the PI Vision extensibility tool including Javasript,
 HTML and CSS files. Data is obtained from the PI AF server via PIWebAPI calls. 
 
-#Usage
+# Usage
  After selecting the symbol icon and dragging an AF element to the display,
 Event Frame Calendar symbol appears with the actual month initially.
 It takes ALL Event Frames from the PI AF database of the selected element.
@@ -26,7 +26,7 @@ Although the symbol can be resized, its minimum size is 340x220 pixels.
 Months can be scrolled with the navigation buttons '<<' and '>>', but venturing
 to the future is not possible.
 
-#Calendar Settings
+# Calendar Settings
  The configuration setting can be invoked by right-clicking on the symbol.
 
 #Configuration section:
