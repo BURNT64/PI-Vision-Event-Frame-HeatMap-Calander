@@ -1,0 +1,39 @@
+   <div class="eventcalendar-container">
+        <link rel="stylesheet" type="text/css" href="scripts/app/editor/symbols/ext/sym-eventcalendar-style.css">
+	    <header class="calendar-header">Event Calendar
+            <p class="calendar-current-date">Month Year</p>
+            <div class="calendar-navigation">
+                <button type="button" id='calendar-prev'> << </button>
+		&nbsp;       	
+		<button type="button" id='calendar-next'> >> </button>
+		<!--span id="calendar-prev" class="material-symbols-rounded">chevron_left</span-->
+                <!--span id="calendar-next" class="material-symbols-rounded">chevron_right</span-->
+            </div>
+        </header>
+        <div class="calendar-body">
+            <ul class="calendar-weekdays">
+                <li>Sun</li>
+                <li>Mon</li>
+                <li>Tue</li>
+                <li>Wed</li>
+                <li>Thu</li>
+                <li>Fri</li>
+                <li>Sat</li>
+            </ul>
+            <ul class="calendar-area"></ul>
+        </div>
+    </div>
+    
+    <!-- for DEBUG -->
+    <!--button 
+    ng-style="{
+                    'background-color': '#414853',
+                    'color': '#00a2e8',
+                    'padding': '5px',
+                    'width': '50px',
+                    'margin': '2px'
+                }" 
+    ng-click = "UpdateEvents()">Events Update</button-->
+
+    <!-- for DEBUG -->
+    <!--p style="color: skyblue">Returned Items:<textarea rows="24" cols="64"> {{Value}}</textarea></p-->

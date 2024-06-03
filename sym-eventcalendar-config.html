@@ -1,0 +1,80 @@
+
+<ul kendo-panel-bar class="t-side-panel" style="font-size: 14px;"> 
+	<!--link rel="stylesheet" type="text/css" href="scripts/app/editor/symbols/ext/sym-eventcalendar-config-style.css"-->
+	<li class="k-state-active"> 
+		<span class="panel-bar-label-no-wrap">Configuration</span>
+		<div class="config-option-single-row" style="margin:10px 20px; font-size: 14px;"> 
+			<div class="config-option-ie11-overflow-fix"> 
+				<div style="width: 85%; margin: 10px 0 10px 15px;">
+					<pv-color-picker colorkeyword="Header", ng-model="config.HeaderColor">
+					</pv-color-picker>
+				</div>
+				<div style="width: 85%; margin: 10px 0 10px 15px;">
+					<pv-color-picker colorkeyword="Background", ng-model="config.BackgroundColor">
+					</pv-color-picker>
+				</div>
+			</div>
+		</div>
+		<div class="config-option-single-row" style="margin:10px 20px; font-size: 14px;"> 
+			<div class="config-option-ie11-overflow-fix">
+				<!--div class="c-config-content" -->
+				<label for="cal-MaxDailyEvents" style="width: 60%;">Events/day cap: </label>
+				<!--div style="width: 85%; margin: 10px 0 15px 10px;"-->
+					<input id="cal-MaxDailyEvents" 
+						type="number"
+						class="collection-config-numeric-input"
+						min="2"
+						max="1000"
+						value="100"
+						step="1"
+						style="width: 40%;"
+						ng-model="config.MaxDailyEvents"
+					/>
+					<!--class="config-text-input-box"-->
+				<!--/div-->
+			</div>
+		</div>
+		<div class="config-option-single-row" style="margin:10px 20px; font-size: 14px; cursor: default;" ng-style="disable && {opacity: 0.5}">
+			<div class="config-option-ie11-overflow-fix">
+				<label for="config-option-slider" style="width: 60%;">Color hue: </label>
+				<div style="width: 50px; height: 15px; float: right; padding: 1px; margin-right: 20px; border: 1px solid black; background-color: hsl({{config.ColorHue}}, 90%, 60%);"></div>
+				<input class="config-option-slider"
+					style="width:85%; height:22px; margin: 2px 0 12px 20px; background-color: grey; /* For browsers that do not support gradients */
+					background-image: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff,  #ff00ff, #ff0000);"
+					type="range" min=0 max=360 step=1
+					ng-model="config.ColorHue" title="{{config.ColorHue}}" ng-change="update()" ng-disabled="disable" 
+				/>
+			</div>
+		</div>
+		<!--div class="config-option-multiple-row" style="margin:10px 20px; font-size: 14px;"> 
+			<div style="width: 85%; margin: 10px 0 15px 20px;">
+				<div class="c-config-content">
+					Width: {{config.Width}}<br>
+					Height: {{config.Height}}
+				</div>
+			</div>
+		</div-->
+	</li>
+	<li class="k-state-active"> 
+		<span class="panel-bar-label-no-wrap">Data Update</span>
+		<div class="config-option-single-row" style="margin:10px 20px; font-size: 14px;"> 
+			<div class="config-option-ie11-overflow-fix">
+				<!--div class="c-config-content" -->
+				<label for="cal-AutoUpdatePeriod" style="width: 60%;">Auto Update (mins): </label>
+				<!--div style="width: 85%; margin: 10px 0 15px 10px;"-->
+					<input id="cal-AutoUpdatePeriod" 
+						type="number"
+						class="collection-config-numeric-input"
+						min="0"
+						max="1440"
+						value="15"
+						step="1"
+						style="width: 40%;"
+						ng-model="config.AutoUpdatePeriod"
+					/>
+					<!--class="config-text-input-box"-->
+				<!--/div-->
+			</div>
+		</div>
+	</li>
+</ul>
