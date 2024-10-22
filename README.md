@@ -56,3 +56,13 @@ invalid input.
  - sym-eventcalendar.js
  - sym-eventcalendar-style.css
  - sym-eventcalendar-config.html
+
+
+* * *
+## Notes:
+
+[Original](https://github.com/BURNT64/PI-Vision-Event-Frame-HeatMap-Calander/commit/3bf44330682d27fc1c08a539121c32675071333b) put together by ITVizion and Will Allwood
+
+Original design:
+
+![image](https://github.com/user-attachments/assets/5f5978ef-e612-40d1-8a6b-4e7b4af4ac0d)
