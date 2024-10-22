@@ -5,8 +5,14 @@
  IT Vizion Inc.
  June 2024
 ********************************************************************************
+Updated, maintained & restyled by Owen Hutchinson as of October 2024
 
-![Event frame count display](https://github.com/BURNT64/PI-Vision-Event-Frame-HeatMap-Calander/assets/88587722/4b9d3bb6-9ab5-464b-af7e-02f487518bca)
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/478c09d0-f8c5-4e61-b9ef-e1ebe221c981" width="500" height="600" alt="eventframecal">
+</p>
+
+
+
 
 # Function
  The Event Calendar is a custom PI Vision symbol to visualize the monthly
@@ -50,3 +56,13 @@ invalid input.
  - sym-eventcalendar.js
  - sym-eventcalendar-style.css
  - sym-eventcalendar-config.html
+
+
+* * *
+## Notes:
+
+[Original](https://github.com/BURNT64/PI-Vision-Event-Frame-HeatMap-Calander/commit/3bf44330682d27fc1c08a539121c32675071333b) put together by ITVizion and Will Allwood
+
+Original design:
+
+![image](https://github.com/user-attachments/assets/5f5978ef-e612-40d1-8a6b-4e7b4af4ac0d)
