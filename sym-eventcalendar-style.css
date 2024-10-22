@@ -62,6 +62,7 @@
     margin: 0;
     color: var(--current-date-color);
     font-size: 1em;
+    padding-right: 10px;
 }
 
 .calendar-navigation {
@@ -197,4 +198,3 @@
 @keyframes spin {
     to { transform: rotate(360deg); }
 }
-
